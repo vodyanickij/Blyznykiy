@@ -17,12 +17,13 @@
                 <li><a href="#">Авторизация</a></li>
             </ul>
     </header>
+    
+    <div id='wrapper'>
+        
+    </div>
 
     <footer>
-        <div id='social'>
-        </div>
-        <div id='right'>Все права защищены &copy <?=date('Y')?>
-        </div>
+        <div id='right'>Все права защищены &copy <?=date('Y')?></div>
     </footer>
 
 </body>

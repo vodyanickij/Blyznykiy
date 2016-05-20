@@ -13,7 +13,7 @@ body {
  div#logo { 
     width:1000;
     height:200px; 
-    background:url('../image/img2.png') no-repeat;
+    background:url('../image/img4.png') no-repeat;
 }
 
 /*меню*/
@@ -23,13 +23,13 @@ body {
         list-style-type: none;
         border: 2px solid hsl(171, 81%, 23%);
         border-radius: 20px 5px;
-        width: 100%;
+        width: 1300px;
         text-align: left;
         background-color: #bebebe;
       }
 #navbar li { display: inline; }
 #navbar a {
-    color: #fff;
+    color: hsl(171, 81%, 23%);
     padding: 12px 10px;
     text-decoration: none;
     font-weight: bold;
@@ -40,30 +40,44 @@ body {
 }
 #navbar a:hover {
         border-radius: 20px 5px;
-        background-color: #17504B;
+        background-color: #39AD94;
     }
+
+/*фон основной части сайта*/
+#wrapper{
+    margin: auto;
+    width:1300px;
+    height:750px;
+    border:3px solid hsl(171, 81%, 23%);
+    border-radius:10px 10px;
+    margin-top: 10px;
+    background-color: #DEE2E3;
+}
 
 /*фон footer*/
 footer{
-    width: 100%;
-    float: left;
-    padding: 1px 1px;
+    color: hsl(171, 81%, 23%);
+    width: 1300px;
+    height:18px;
+    margin:auto;
+    padding: 1px 2px;
     background-color: #bebebe;
     border-top: 2px solid silver;
-    margin-top: 10px;
-    border: 2px solid hsl(171, 81%, 23%);     
+    margin-top: 10px ;
+    border: 2px solid hsl(171, 81%, 23%);  
+    border-radius: 20px 5px;   
 }
 
-#social{
+/*#social{
     float: left;
     width: 50%;
-}
+}*/
 
 #right{
     float:right;
     width: 50%;
     text-align: right;
-    margin-right: 12px; 
+    margin-right: 30px; 
     font-size: 1.1em;
 }
 
