@@ -1,15 +1,8 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>Авторизация</title>
-    <link rel="stylesheet" type="text/css" href="../style/style.css" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body>
+<?php include("../n/header.php")?>
     
-    
+   <div id='wrapper'> 
     <div id = "login">
-            <form action="views/login.php" method="post">
+            <form action="log.php" method="post">
             <label>Ваш логин:</label>
             <input type="text" name="login" size="15" maxlength="15" /><br /><br />
             <label>Ваш пароль:</label>
@@ -19,6 +12,6 @@
             <a href="reg.php">Регистрация</a>
             </form>
     </div>
-    
-</body>
-</html>
+    </div>
+
+<?php include("../n/footer.php")?>

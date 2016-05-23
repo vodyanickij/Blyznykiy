@@ -32,7 +32,9 @@ if(isset($_POST['submit']))
     $result = mysql_query($query);
 
     if($result == true){
-        echo "Вы успешно зарегистрированы! <br><a href='../index.php'>Главная страница</a>";
+        echo'<script type="text/javascript">
+window.location = "login.php"
+</script>';
     }else{
         echo "Error! ----> ". mysql_error();
     }

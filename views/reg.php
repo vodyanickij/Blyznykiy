@@ -1,13 +1,8 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>Регистрация</title>
-    <link rel="stylesheet" type="text/css" href="../style/style.css" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body>
+<?php include("../n/header.php")?>
+
+<div id='wrapper'>
     <div id = "login">
-        <form action = "views/save_user.php" method = "post">
+        <form action = "save_user.php" method = "post">
             <label> Вашое имя: </label>
             <input type = "text" name = "user" /><br/><br />
             <label> Ваша фамилия: </label>
@@ -22,5 +17,6 @@
             <input type = "submit" value = "Зарегистрироваться" name = "submit"/><br />
         </form>
     </div>
-</body>
-</html>
+</div>
+
+<?php include("../n/footer.php")?>
