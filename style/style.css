@@ -2,9 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-@media (max-width: 930px) { /* это будет показано при разрешении монитора до 930 пикселей */
-  .content-wrapper {padding: 0;} /* основное содержимое занимает всё пространство окна */
-}
+
 /*фон*/
 body {
     background: url('../image/img1.jpg');
@@ -57,9 +55,15 @@ body {
     background-color: #D6D4D4;
 }
 
-h1{
+h1,p{
     color:hsl(171, 81%, 23%);
     text-align:center;
+    margin-top:17px;
+    /*margin: auto;*/
+}
+
+img{
+    width: 30em;
     margin-top:17px;
 }
 
@@ -95,7 +99,7 @@ footer{
     font-family: 'Times New Roman';
     border: 2px solid #ccc;
     padding: 30px 40px 25px;
-    margin-top: 70px;
+    margin-top: 30px;
     background: #bebebe;
 }
 

@@ -18,9 +18,11 @@ if(isset($_POST['submit']))
     $query = mysql_query("SELECT * FROM  `users` WHERE login = '$login'");
     while($logpass = mysql_fetch_array($query)){
         if( $logpass['pass'] == $password){
-$_SESSION['login']=$logpass["login"]; 
-    $_SESSION['id']=$logpass["id"];
-            echo "Вы успешно вошли на сайт! <br><a href='../index.php'>Главная страница</a>";
+            $_SESSION['login']=$logpass["login"]; 
+            $_SESSION['id']=$logpass["id"];
+            echo '<script type="text/javascript">
+        window.location = "zapis.php"
+        </script>';
         }else{
             echo "Извините, введённый вами логин или пароль неверный.";
         }

@@ -7,6 +7,7 @@
 <?php include("../blocks/header.php")?>
 
     <div id='wrapper'>
+    <h1>РЕГИСТРАЦИЯ</h1>
         <div id = "login">
             <form action = "save_user.php" method = "post">
                 <label> Вашое имя: </label>

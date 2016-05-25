@@ -8,6 +8,7 @@
 <?php include("../blocks/header.php")?>
     
     <div id='wrapper'> 
+        <h1>АВТОРИЗАЦИЯ</h1>
         <div id = "login">
             <form action="log.php" method="post">
                 <label>Ваш логин:</label>
